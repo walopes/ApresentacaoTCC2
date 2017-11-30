@@ -1,3 +1,7 @@
 \select@language {brazil}
 \beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
 \beamer@sectionintoc {2}{Projeto e implementa\IeC {\c c}\IeC {\~a}o}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Projeto do \textit {Hardware}}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Projeto do controlador de SED}{11}{0}{2}
+\beamer@subsectionintoc {2}{3}{Fun\IeC {\c c}\IeC {\~a}o de transfer\IeC {\^e}ncia do ve\IeC {\'\i }culo}{11}{0}{2}
+\beamer@subsectionintoc {2}{4}{Projeto do controlador de tempo cont\IeC {\'\i }nuo}{11}{0}{2}
