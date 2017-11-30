@@ -87,7 +87,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Short title]{Projeto e implementação de \\robô autônomo seguidor de linha} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Projeto e implementação de robô seguidor de linha]{Projeto e implementação de \\robô autônomo seguidor de linha} % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Willian Americano Lopes} % Your name
 %\small walopes23@gmail.com
@@ -107,9 +107,11 @@ walopes23@gmail.com\\
 %%
 
 }
-\date{\today} % Date, can be changed to a custom date
 
-%\titlegraphic{\includegraphics[scale=0.5]{utf2.pdf}}
+
+%\small \date{\today} % Date, can be changed to a custom date
+\small \date{05 de dezembro de 2017} % Date, can be changed to a custom date
+
 \titlegraphic{}
 
 \begin{document}
@@ -122,7 +124,7 @@ walopes23@gmail.com\\
       \includegraphics[width=2cm]{utf.pdf}%
     }%
     \parbox[c]{\dimexpr\paperwidth-5.2cm\relax}{\centering%
-      {\Large Universidade Tecnológica Federal do Paraná}%
+      {\large Universidade Tecnológica Federal do Paraná}%
     }%
   }%
 }    
@@ -137,12 +139,12 @@ walopes23@gmail.com\\
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{frame}
+\begin{frame}[label=firstframe]
 \titlepage % Print the title page as the first slide
 \end{frame}
 
 \begin{frame}
-\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\frametitle{Sumário} % Table of contents slide, comment this block out to remove it
 \tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
 \end{frame}
 
@@ -291,9 +293,14 @@ This statement requires citation \cite{p1}.
 
 %------------------------------------------------
 
-\begin{frame}
-\Huge{\centerline{The End}}
-\end{frame}
+%\begin{frame}
+%%\Huge{\centerline{The End}}
+%\againframe{firstframe}
+%\end{frame}
+
+%% Repeat the title page
+\againframe{firstframe}
+
 
 %----------------------------------------------------------------------------------------
 
