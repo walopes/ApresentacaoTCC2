@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.3)  30 NOV 2017 01:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.3)  30 NOV 2017 19:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -650,7 +650,9 @@ ngles.sty)
 (c:/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemewhale
 .sty)
 (c:/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemeorchi
-d.sty)) (c:/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+d.sty))
+(c:/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercolorthemecrane
+.sty) (c:/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \heavyrulewidth=\dimen190
 \lightrulewidth=\dimen191
@@ -1312,7 +1314,7 @@ Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 6
 
 ])
 (./Implementacao.tex
-<Figuras/DiagramaHW.pdf, id=215, pagebox=cropbox, 396.48125pt x 218.8175pt>
+<Figuras/DiagramaHW.pdf, id=216, pagebox=cropbox, 396.48125pt x 218.8175pt>
 File: Figuras/DiagramaHW.pdf Graphic file (type pdf)
 <use Figuras/DiagramaHW.pdf>
 Package pdftex.def Info: Figuras/DiagramaHW.pdf  used on input line 31. on inpu
@@ -1506,10 +1508,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 121 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19058 strings out of 492990
- 357734 string characters out of 6136334
- 431727 words of memory out of 5000000
- 22109 multiletter control sequences out of 15000+600000
+ 19066 strings out of 492990
+ 358041 string characters out of 6136334
+ 431962 words of memory out of 5000000
+ 22114 multiletter control sequences out of 15000+600000
  13786 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,72p,785b,767s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1523,7 +1525,7 @@ e1/public/amsfonts/cm/cmssi12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmssi9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb>
-Output written on ApresentacaoTCC2.pdf (17 pages, 189474 bytes).
+Output written on ApresentacaoTCC2.pdf (17 pages, 190609 bytes).
 PDF statistics:
  582 PDF objects out of 1000 (max. 8388607)
  529 compressed objects within 6 object streams
