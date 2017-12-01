@@ -9,3 +9,7 @@
 \beamer@subsectionintoc {3}{3}{Projeto do sistema de mapeamento}{17}{0}{3}
 \beamer@subsectionintoc {3}{4}{Fun\IeC {\c c}\IeC {\~a}o de transfer\IeC {\^e}ncia do ve\IeC {\'\i }culo}{18}{0}{3}
 \beamer@subsectionintoc {3}{5}{Projeto do controlador de tempo cont\IeC {\'\i }nuo}{22}{0}{3}
+\beamer@sectionintoc {4}{Resultados}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{Projeto e implementa\IeC {\c c}\IeC {\~a}o da estrutura mec\IeC {\^a}nica}{24}{0}{4}
+\beamer@subsectionintoc {4}{2}{Participa\IeC {\c c}\IeC {\~a}o em competi\IeC {\c c}\IeC {\~o}es}{26}{0}{4}
+\beamer@subsectionintoc {4}{3}{Teste dos sensores de reflet\IeC {\^a}ncia}{27}{0}{4}
