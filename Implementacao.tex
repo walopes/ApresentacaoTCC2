@@ -1,25 +1,15 @@
 %------------------------------------------------
-\section{Projeto e implementação}
+\section{Desenho e implementação}
 %------------------------------------------------
 
-\subsection{Projeto do \textit{Hardware}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Projeto do \textit{hardware}}
 
 \begin{frame}
-\frametitle{Projeto do \textit{Hardware}}
+\frametitle{Desenho e implementação}
 
-Estrutura do robô \\~
-
-Distribuição de peso na placa
-
-%\begin{figure}[th]
-% \centering
-% \captionsetup{width=0.65\textwidth,font=footnotesize,textfont=bf}
-% \includegraphics[width=0.65\textwidth,keepaspectratio]{Figuras/DiagramaHW.pdf}
-% \caption{Diagrama de funcionamento do \textit{hardware} do veículo.\label{fig:diagEl}}
-% \vspace{-0.3cm}
-% \caption*{Fonte: Autoria própria.}
-%\end{figure}
-%\vspace{-0.1cm}
+Projeto do \textit{Hardware}
 
 \begin{figure}[th]
 	\centering
@@ -33,13 +23,31 @@ Distribuição de peso na placa
 %% ----------------------------------------------------
 
 \begin{frame}
-\frametitle{Regulador de tensão AMS1117}
+\frametitle{Sensores e condicionamento de sinais}
 
 \begin{figure}[th]
 	\centering
+	\captionsetup{width=0.65\textwidth,font=footnotesize,textfont=bf}
 	\includegraphics[width=0.65\textwidth,keepaspectratio]{Figuras/DiagramaHW.pdf}
 	\caption{Diagrama de funcionamento do \textit{hardware} do veículo.\label{fig:diagEl}}
 \end{figure}
+
+
+\end{frame}
+
+%% To not change the number page of this slide
+\begin{frame}[noframenumbering]
+\frametitle{Sensores e condicionamento de sinais}
+
+
+
+    \transglitter
+    \frametitle{Test}
+        \begin{itemize}
+            \item One
+            \item Two
+            \item Three
+        \end{itemize}
 \end{frame}
 
 %% ------------------------------------------------------
@@ -70,15 +78,77 @@ Distribuição de peso na placa
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Projeto do controlador de SED}
 
+\begin{frame}
+\frametitle{Projeto do controlador de SED}
+\begin{columns}
+	\column{0.4\linewidth}
+		\begin{itemize}
+		\item Modelado pelos \textit{softwares} Supremica e Deslab
+		\item Autômato de Moore
+		\item Variáveis mapeadas:
+			\begin{itemize}
+			\item B1 (botão);
+			\item AcharDir;
+			\item PerdeDir;
+			\item AchaEsq;
+			\item PerdeEsq.
+			\end{itemize}
+		\end{itemize}
+	\column{0.7\linewidth}
+		\begin{figure}[th]
+		\centering
+		\captionsetup{width=\textwidth,font=footnotesize,textfont=bf}
+		\includegraphics[width=\textwidth,keepaspectratio]{Figuras/SED.pdf}
+		\caption{Controlador de SED}				
+		\end{figure}
+\end{columns}
 
+\end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Projeto do sistema de mapeamento}
+
+\begin{frame}
+\frametitle{Projeto do sistema de mapeamento}
+\begin{columns}
+	\column{0.4\linewidth}
+		\begin{itemize}
+		\item Modelado pelos \textit{softwares} Supremica e Deslab
+		\item Autômato de Moore
+		\item Variáveis mapeadas:
+			\begin{itemize}
+			\item B1 (botão);
+			\item AcharDir;
+			\item PerdeDir;
+			\item AchaEsq;
+			\item PerdeEsq.
+			\end{itemize}
+		\end{itemize}
+	\column{0.7\linewidth}
+		\begin{figure}[th]
+		\centering
+		\captionsetup{width=\textwidth,font=footnotesize,textfont=bf}
+		\includegraphics[width=\textwidth,keepaspectratio]{Figuras/SED.pdf}
+		\caption{Controlador de SED}				
+		\end{figure}
+\end{columns}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Função de transferência do veículo}
 
 
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Projeto do controlador de tempo contínuo}
 
 
