@@ -13,3 +13,4 @@
 \beamer@subsectionintoc {4}{1}{Projeto e implementa\IeC {\c c}\IeC {\~a}o da estrutura mec\IeC {\^a}nica}{24}{0}{4}
 \beamer@subsectionintoc {4}{2}{Participa\IeC {\c c}\IeC {\~a}o em competi\IeC {\c c}\IeC {\~o}es}{26}{0}{4}
 \beamer@subsectionintoc {4}{3}{Teste dos sensores de reflet\IeC {\^a}ncia}{27}{0}{4}
+\beamer@sectionintoc {5}{Conclus\IeC {\~a}o}{31}{0}{5}

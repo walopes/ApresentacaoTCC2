@@ -76,10 +76,15 @@
 \headcommand {\beamer@framepages {29}{29}}
 \headcommand {\slideentry {4}{3}{4}{30/30}{Teste dos sensores de reflet\IeC {\^a}ncia}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {4}{3}{5}{31/31}{Teste dos sensores de reflet\IeC {\^a}ncia}{0}}
+\headcommand {\sectionentry {5}{Conclus\IeC {\~a}o}{31}{Conclus\IeC {\~a}o}{0}}
+\headcommand {\beamer@sectionpages {24}{30}}
+\headcommand {\beamer@subsectionpages {27}{30}}
+\headcommand {\slideentry {5}{0}{1}{31/31}{}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\beamer@partpages {1}{31}}
-\headcommand {\beamer@subsectionpages {27}{31}}
-\headcommand {\beamer@sectionpages {24}{31}}
-\headcommand {\beamer@documentpages {31}}
-\headcommand {\def \inserttotalframenumber {28}}
+\headcommand {\slideentry {5}{0}{2}{32/32}{}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\beamer@partpages {1}{32}}
+\headcommand {\beamer@subsectionpages {31}{32}}
+\headcommand {\beamer@sectionpages {31}{32}}
+\headcommand {\beamer@documentpages {32}}
+\headcommand {\def \inserttotalframenumber {29}}
