@@ -118,23 +118,20 @@ Projeto do \textit{Hardware}
 \begin{columns}
 	\column{0.4\linewidth}
 		\begin{itemize}
-		\item Modelado pelos \textit{softwares} Supremica e Deslab
-		\item Autômato de Moore
-		\item Variáveis mapeadas:
+		\item Armazenamento na memória \textit{flash}
+		\item Contém as seguintes informações:
 			\begin{itemize}
-			\item B1 (botão);
-			\item AcharDir;
-			\item PerdeDir;
-			\item AchaEsq;
-			\item PerdeEsq.
+			\item Quantidade de marcações;
+			\item Início e fim de marcação da direita;
+			\item Início e fim de marcação da esquerda;
 			\end{itemize}
 		\end{itemize}
 	\column{0.7\linewidth}
 		\begin{figure}[th]
 		\centering
 		\captionsetup{width=\textwidth,font=footnotesize,textfont=bf}
-		\includegraphics[width=\textwidth,keepaspectratio]{Figuras/SED.pdf}
-		\caption{Controlador de SED}				
+		\includegraphics[width=0.6\linewidth,keepaspectratio]{Figuras/VetorMap.pdf}
+		\caption{Vetor de armazenamento na \textit{flash}}				
 		\end{figure}
 \end{columns}
 
@@ -144,8 +141,108 @@ Projeto do \textit{Hardware}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsection{Função de transferência do veículo}
 
+\begin{frame}
+\frametitle{Função de Transferência do veículo}
+\textbf{Aquisição dos valores da planta}
+\begin{columns}
+	\column{0.4\linewidth}
+		\begin{itemize}
+		\item Obtenção da posição
+		\item Mesmo PWM para os motores
+		\item Motores em sentidos opostos
+		\item Informações enviadas via \textit{bluetooth}
+		\item É esperado um gráfico próximo a uma rampa
+		\end{itemize}
+	\column{0.7\linewidth}
+		\begin{figure}[th]
+		\centering
+		\captionsetup{width=\textwidth,font=footnotesize,textfont=bf}
+		\includegraphics[width=0.6\linewidth,keepaspectratio]{Figuras/FT.pdf}
+		\caption{Aquisição dos valores de posição do robô}				
+		\end{figure}
+\end{columns}
+\end{frame}
 
 
+\begin{frame}
+\frametitle{Função de Transferência do veículo}
+\textbf{Modelo da função de transferência}\\
+	Para encontrar a velocidade, deriva-se a posição
+	
+\begin{columns}
+	\column{0.5\linewidth}
+
+	\begin{figure}[th]
+	\centering
+	\captionsetup{width=\textwidth,font=footnotesize,textfont=bf}
+	\includegraphics[width=\linewidth,keepaspectratio]{Figuras/Posicao3v2.pdf}
+	\caption{Gráfico da posição obtida}				
+	\end{figure}
+ 	
+	%\pause 	
+ 	\column{0.5\linewidth}
+	\begin{figure}[th]
+	\centering
+	\captionsetup{width=\textwidth,font=footnotesize,textfont=bf}
+	\includegraphics[width=\linewidth,keepaspectratio]{Figuras/Derivadav2.pdf}
+	\caption{Gráfico da velocidade}				
+	\end{figure}
+\end{columns}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Função de Transferência do veículo}
+\textbf{Modelo da função de transferência}\\
+Com o Matlab, verificou-se uma função que mais se aproxima da desejada
+	
+\begin{columns}
+ 		
+ 	\column{0.45\linewidth}
+ 	\vspace{-0.5cm}
+ 	\begin{itemize}
+ 	\item $P2ZU = 0,0054915\frac{1-0,011087s}{1+0,014889s+0,000238s^2}$
+ 	\item A função contém 3 polos e 1 zero
+ 	\end{itemize}
+ 	
+ 	\column{0.55\linewidth}
+
+	\begin{figure}[th]
+	\centering
+	\captionsetup{width=0.9\textwidth,font=footnotesize,textfont=bf}
+	\includegraphics[width=\linewidth,keepaspectratio]{Figuras/Comparativo.pdf}
+	\caption{Comparativo feito pelo System Identification}				
+	\end{figure}
+	
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Função de Transferência do veículo}
+\textbf{Modelo da função de transferência}\\
+Com o Matlab, verificou-se uma função que mais se aproxima da desejada
+	
+\begin{columns}
+
+	\column{0.5\linewidth}
+ 	\begin{itemize}
+ 	\item A função encontrada é relacionada à velocidade
+ 	\item Para a original, é necessário integrá-la e multiplicá-la pelo ganho
+ 	\item $FT: 1223\frac{P2Z2}{s}$
+	\end{itemize} 		
+
+ 	\column{0.5\linewidth}
+ 	\vspace{-0.5cm}
+	\begin{figure}[th]
+	\centering
+	\captionsetup{width=0.85\textwidth,font=footnotesize,textfont=bf}
+	\includegraphics[width=\linewidth,keepaspectratio]{Figuras/planta2v2.pdf}
+	\caption{Função de transferência encontrada}				
+	\end{figure}
+	
+\end{columns}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

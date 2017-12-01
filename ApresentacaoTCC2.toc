@@ -6,5 +6,6 @@
 \beamer@sectionintoc {3}{Desenho e implementa\IeC {\c c}\IeC {\~a}o}{11}{0}{3}
 \beamer@subsectionintoc {3}{1}{Projeto do \textit {hardware}}{11}{0}{3}
 \beamer@subsectionintoc {3}{2}{Projeto do controlador de SED}{16}{0}{3}
-\beamer@subsectionintoc {3}{3}{Fun\IeC {\c c}\IeC {\~a}o de transfer\IeC {\^e}ncia do ve\IeC {\'\i }culo}{17}{0}{3}
-\beamer@subsectionintoc {3}{4}{Projeto do controlador de tempo cont\IeC {\'\i }nuo}{17}{0}{3}
+\beamer@subsectionintoc {3}{3}{Projeto do sistema de mapeamento}{17}{0}{3}
+\beamer@subsectionintoc {3}{4}{Fun\IeC {\c c}\IeC {\~a}o de transfer\IeC {\^e}ncia do ve\IeC {\'\i }culo}{18}{0}{3}
+\beamer@subsectionintoc {3}{5}{Projeto do controlador de tempo cont\IeC {\'\i }nuo}{22}{0}{3}
