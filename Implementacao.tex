@@ -202,7 +202,7 @@ Com o Matlab, verificou-se uma função que mais se aproxima da desejada
  	\column{0.45\linewidth}
  	\vspace{-0.5cm}
  	\begin{itemize}
- 	\item $P2ZU = 0,0054915\frac{1-0,011087s}{1+0,014889s+0,000238s^2}$
+ 	\item $P2ZU = 0,0054915(\frac{1-0,011087s}{1+0,014889s+0,000238s^2})$
  	\item A função contém 3 polos e 1 zero
  	\end{itemize}
  	
@@ -221,7 +221,6 @@ Com o Matlab, verificou-se uma função que mais se aproxima da desejada
 \begin{frame}
 \frametitle{Função de Transferência do veículo}
 \textbf{Modelo da função de transferência}\\
-Com o Matlab, verificou-se uma função que mais se aproxima da desejada
 	
 \begin{columns}
 
@@ -229,11 +228,10 @@ Com o Matlab, verificou-se uma função que mais se aproxima da desejada
  	\begin{itemize}
  	\item A função encontrada é relacionada à velocidade
  	\item Para a original, é necessário integrá-la e multiplicá-la pelo ganho
- 	\item $FT: 1223\frac{P2Z2}{s}$
+ 	\item $FT: 1223(\frac{P2Z2}{s})$
 	\end{itemize} 		
 
  	\column{0.5\linewidth}
- 	\vspace{-0.5cm}
 	\begin{figure}[th]
 	\centering
 	\captionsetup{width=0.85\textwidth,font=footnotesize,textfont=bf}
@@ -249,48 +247,34 @@ Com o Matlab, verificou-se uma função que mais se aproxima da desejada
 \subsection{Projeto do controlador de tempo contínuo}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-%%% OLD ABOVE %%%%%
-
-
 \begin{frame}
-\frametitle{Table}
-\begin{table}
-\begin{tabular}{l l l}
-\toprule
-\textbf{Treatments} & \textbf{Response 1} & \textbf{Response 2}\\
-\midrule
-Treatment 1 & 0.0003262 & 0.562 \\
-Treatment 2 & 0.0015681 & 0.910 \\
-Treatment 3 & 0.0009271 & 0.296 \\
-\bottomrule
-\end{tabular}
-\caption{Table caption}
-\end{table}
+\frametitle{Projeto do controlador de tempo contínuo}
+
+\begin{itemize}
+\item Controlador Proporcional-Derivativo (PD)
+\item Variável controlada é a posição
+\end{itemize}
+
+\begin{equation}\label{eq:posicao}
+posicao = \frac{\sum_{n=1}^{5} 1000(n-1)V_{n}}{\sum_{n=1}^{5} V_{n}}
+\end{equation}
+
+\begin{equation}\label{eq:posicao2}
+posicao = \frac{0*V_{1} + 1000*V_{2} + 2000*V_{3} + 3000*V_{4} + 4000*V_{5} }{V_{1} + V_{2} + V_{3} + V_{4} + V_{5}}
+\end{equation}
+
 \end{frame}
 
-%------------------------------------------------
+%%% VER PARA TALVEZ COLOCAR O CODIGO DO PD CONTROLLER
 
-\begin{frame}
-\frametitle{Theorem}
-\begin{theorem}[Mass--energy equivalence]
-$E = mc^2$
-\end{theorem}
-\end{frame}
+%
+%\begin{frame}
+%\frametitle{Theorem}
+%\begin{theorem}[Mass--energy equivalence]
+%$E = mc^2$
+%\end{theorem}
+%\end{frame}
 
-%------------------------------------------------
 
 \begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
 \frametitle{Verbatim}
@@ -304,26 +288,6 @@ $E = mc^2$
 \end{frame}\end{verbatim}
 \end{example}
 \end{frame}
-
-%------------------------------------------------
-
-\begin{frame}
-\frametitle{Figure}
-Uncomment the code on this slide to include your own image from the same directory as the template .TeX file.
-%\begin{figure}
-%\includegraphics[width=0.8\linewidth]{test}
-%\end{figure}
-\end{frame}
-
-%------------------------------------------------
-
-\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-\frametitle{Citation}
-An example of the \verb|\cite| command to cite within the presentation:\\~
-
-This statement requires citation \cite{p1}.
-\end{frame}
-
 
 
 
@@ -346,12 +310,6 @@ This statement requires citation \cite{p1}.
 %     \vspace{-0.3cm}
 %     \caption*{Fonte: Autoria própria}
 % \end{figure}
-
-
-
-
-
-
 
 
 %------------------------------------------------
