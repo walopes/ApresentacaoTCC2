@@ -108,7 +108,7 @@
          \includegraphics[width=0.85\textwidth,height=5\textheight,keepaspectratio]{Figuras/mealy.pdf}
          \caption{\centering \label{fig:mealy}}
      \end{subfigure}
-	\caption{Autômatos: (a) Moore; (b) Mealy (CASSANDRAS;LAFORTUNE;2008,p.43)}
+	\caption{Autômatos: (a) Moore; (b) Mealy}
  \end{figure}
 	
 \end{columns}
@@ -128,14 +128,14 @@
 	\column{0.7\linewidth}
 	\begin{figure}[h]
      \centering
-     \captionsetup{width=0.6\textwidth,font=footnotesize,textfont=bf}
-     \begin{subfigure}[b]{0.3\textwidth}
+     \captionsetup{width=0.9\textwidth,font=footnotesize,textfont=bf}
+     \begin{subfigure}[b]{0.4\textwidth}
  	\centering
          \includegraphics[width=1\textwidth,height=0.4\textheight]{Figuras/marcio1.png}
          \caption{\centering \label{fig:marcio1}}
      \end{subfigure}
 	~     
-     \begin{subfigure}[b]{0.3\textwidth}
+     \begin{subfigure}[b]{0.4\textwidth}
  	\centering
          \includegraphics[width=1\textwidth,height=0.4\textheight]{Figuras/polulumod.png}
          \caption{\centering \label{fig:pololumarcio}}
@@ -153,13 +153,29 @@
 \begin{frame}
 \frametitle{Objetivos}
 \begin{block}{Geral}
-	 jfklafjs;lfajk
+	 Projetar e implementar um protótipo de um robô seguidor de linha, que seja autônomo, através da utilização de controle híbrido, aperfeiçoando as técnicas desenvolvidas por Petry (2016).
 \end{block}
 
 \begin{block}{Específicos}
 	\begin{itemize}
-	\item jfklsdjfd
-	\item klfjsdjf
+	\item Projetar o condicionamento de sinais necessários para os dispositivos a serem utilizados, permitindo uma precisão na leitura dos sensores;
+	\item Projetar e confeccionar a estrutura do protótipo, visando atender as dimensões especificadas pela Robocore;
+	\item Implementar um controlador de Sistemas a Eventos Discretos, para que seja possível tratar de maneira precisa as marcações laterais da pista;
+
+	\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Objetivos}
+\begin{block}{Específicos}
+	\begin{itemize}
+	\item Modelar a função de transferência do robô;
+	\item Implementar um controlador para manter o robô sobre a linha na pista;
+	\item Realizar testes com o protótipo em pistas que sigam as normas da Robocore;
+	\item Fazer o mapeamento do percurso com um \textit{encoder para o controle da velocidade}
+	\item Comparar os resultados obtidos com o de Petry (2016).
 	\end{itemize}
 \end{block}
 
@@ -192,20 +208,42 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lectus nisl, ul
 
 \begin{frame}
 \frametitle{Justificativa}
+\begin{columns}[c]
 
-\begin{itemize}
-\item ART (\textit{ Autonomous Rail Rapid Transit} ou Trilho Autônomo de Trânsito Rápido)
-\item Trem em Zhuzhou (China)
-\end{itemize}
+	\column{0.3\textwidth}
+	\begin{itemize}
+	\begin{figure}[h]
+     \centering
+     \captionsetup{width=0.85\textwidth,font=footnotesize,textfont=bf}
+     \begin{subfigure}[b]{\textwidth}
+ 	\centering
+         \includegraphics[width=0.85\textwidth,height=\textheight,keepaspectratio]{Figuras/robogames.jpg}
+         \caption{\centering \label{fig:fss}}
+     \end{subfigure}
+     
+     \begin{subfigure}[b]{\textwidth}
+ 	\centering
+         \includegraphics[width=0.85\textwidth,height=5\textheight,keepaspectratio]{Figuras/winterlogo.jpg}
+         \caption{\centering \label{fig:vdd}}
+     \end{subfigure}
+	\caption{Autômatos: (a) Moore; (b) Mealy}
+ \end{figure}
+	\end{itemize}
 
-\begin{figure}[]
- \centering
- \captionsetup{width=0.65\textwidth,font=footnotesize,textfont=bf}
- \includegraphics[width=0.65\textwidth,keepaspectratio]{Figuras/Trem.jpg}
- \caption{Trem sobre trilhos virtuais (DAILYMAIL, 2017)}
-\end{figure}
+	\column{0.7\textwidth}
+	\begin{itemize}
+	\item ART (\textit{ Autonomous Rail Rapid Transit} ou Trilho Autônomo de Trânsito 	Rápido)
+	\item Trem em Zhuzhou (China)
+	\end{itemize}
 
+	\begin{figure}[]
+	 \centering
+	 \captionsetup{width=0.65\textwidth,font=footnotesize,textfont=bf}
+	 \includegraphics[width=0.65\textwidth,keepaspectratio]{Figuras/Trem.jpg}
+	 \caption{Trem sobre trilhos virtuais (DAILYMAIL, 2017)}
+	\end{figure}
 
+\end{columns}
 \end{frame}
 
 
