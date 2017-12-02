@@ -24,58 +24,52 @@ Projeto do \textit{Hardware}
 
 \begin{frame}
 \frametitle{Sensores e condicionamento de sinais}
+\begin{columns}
 
-\begin{figure}[th]
+	\column{0.5\textwidth}
+	\vspace{-1.5cm}
+	\begin{itemize}
+	\item QRE1113
+	\end{itemize}
+	\begin{figure}[th]
 	\centering
-	\captionsetup{width=0.65\textwidth,font=footnotesize,textfont=bf}
-	\includegraphics[width=0.65\textwidth,keepaspectratio]{Figuras/DiagramaHW.pdf}
-	\caption{Diagrama de funcionamento do \textit{hardware} do veículo.\label{fig:diagEl}}
-\end{figure}
+	\captionsetup{width=\textwidth,font=footnotesize,textfont=bf}
+	\includegraphics[width=\textwidth,keepaspectratio]{Figuras/qre.pdf}
+	\caption{Configuração do sensor QRE1113.}
+	\end{figure}
 
 
+	\pause
+	\column{0.5\textwidth}
+	\begin{itemize}
+	\item AMS1117
+	\end{itemize}
+	\begin{figure}[th]
+	\centering
+	\captionsetup{width=0.9\textwidth,font=footnotesize,textfont=bf}
+	\includegraphics[width=0.5\textwidth,keepaspectratio]{Figuras/ams.pdf}
+	\caption{Configuração do regulador de tensão AMS1117}
+	\end{figure}
+
+\end{columns}
 \end{frame}
 
-%% To not change the number page of this slide
-\begin{frame}[noframenumbering]
-\frametitle{Sensores e condicionamento de sinais}
-
-
-
-    \transglitter
-    \frametitle{Test}
-        \begin{itemize}
-            \item One
-            \item Two
-            \item Three
-        \end{itemize}
-\end{frame}
+%%% To not change the number page of this slide
+%\begin{frame}[noframenumbering]
+%\frametitle{Sensores e condicionamento de sinais}
+%
+%
+%
+%    \transglitter
+%    \frametitle{Test}
+%        \begin{itemize}
+%            \item One
+%            \item Two
+%            \item Three
+%        \end{itemize}
+%\end{frame}
 
 %% ------------------------------------------------------
-
-\begin{frame}
-\frametitle{Sensor de refletância QRE1113}
-
-\begin{figure}[th]
-	\centering
-	\includegraphics[width=0.65\textwidth,keepaspectratio]{Figuras/DiagramaHW.pdf}
-	\caption{Diagrama de funcionamento do \textit{hardware} do veículo.\label{fig:diagEl}}
-\end{figure}
-\end{frame}
-
-%% ------------------------------------------------------
-
-\begin{frame}
-\frametitle{\textit{Driver} de acionamento TB6612FNG}
-
-\begin{figure}[th]
-	\centering
-	\includegraphics[width=0.65\textwidth,keepaspectratio]{Figuras/DiagramaHW.pdf}
-	\caption{Diagrama de funcionamento do \textit{hardware} do veículo.\label{fig:diagEl}}
-\end{figure}
-\end{frame}
-
-%% ------------------------------------------------------
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -277,16 +271,52 @@ posicao = \frac{0*V_{1} + 1000*V_{2} + 2000*V_{3} + 3000*V_{4} + 4000*V_{5} }{V_
 
 
 \begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
-\frametitle{Verbatim}
-\begin{example}[Theorem Slide Code]
+\frametitle{Projeto do controlador de tempo contínuo}
+\begin{block}{Trecho do código \textbf{pdcontrol()}}
+
+
 \begin{verbatim}
-\begin{frame}
-\frametitle{Theorem}
-\begin{theorem}[Mass--energy equivalence]
-$E = mc^2$
-\end{theorem}
+void pdcontrol(){...
+int16_t proporcional = posicao - 2000; 
+// referencia e o valor 2000
+	int16_t derivativo = 
+		(proporcional - proporcional_passado); 
+	//obtendo o derivativo
+	proporcional_passado = proporcional;
+
+	int16_t saida_pwm = 
+	(int16_t)(((float)proporcional * Kp ) 
+	+ ((float)derivativo * Kd );
+
+	int16_t PWM = saida_pwm;
+
 \end{frame}\end{verbatim}
-\end{example}
+\end{block}
+\end{frame}
+
+\begin{frame}[fragile] % Need to use the fragile option when verbatim is used in the slide
+\frametitle{Projeto do controlador de tempo contínuo}
+\begin{block}{Trecho do código \textbf{pdcontrol()}}
+
+
+\begin{verbatim}
+	if ( PWM > velocidade )   PWM =  velocidade;
+		 //Saida limitada em 0 e 4095
+	if ( PWM < -velocidade )  PWM = -velocidade;
+if (PWM < 0)
+	{
+		  __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, 
+		  	(velocidade+PWM));
+		  __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_4, 
+		  	velocidade);
+	}
+	if (PWM > 0)
+	{ ...
+
+	}
+
+\end{frame}\end{verbatim}
+\end{block}
 \end{frame}
 
 

@@ -1,10 +1,22 @@
-\frametitle{Verbatim}
-\begin{example}[Theorem Slide Code]
+\frametitle{Projeto do controlador de tempo contínuo}
+\begin{block}{Trecho do código \textbf{pdcontrol()}}
+
+
 \begin{verbatim}
-\begin{frame}
-\frametitle{Theorem}
-\begin{theorem}[Mass--energy equivalence]
-$E = mc^2$
-\end{theorem}
+	if ( PWM > velocidade )   PWM =  velocidade;
+		 //Saida limitada em 0 e 4095
+	if ( PWM < -velocidade )  PWM = -velocidade;
+if (PWM < 0)
+	{
+		  __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2,
+		  	(velocidade+PWM));
+		  __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_4,
+		  	velocidade);
+	}
+	if (PWM > 0)
+	{ ...
+
+	}
+
 \end{frame}\end{verbatim}
-\end{example}
+\end{block}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.3)  2 DEC 2017 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.3)  2 DEC 2017 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1050,15 +1050,6 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 )
 (./ApresentacaoTCC2.aux
 
-LaTeX Warning: Label `fig:diagEl' multiply defined.
-
-
-LaTeX Warning: Label `fig:diagEl' multiply defined.
-
-
-LaTeX Warning: Label `fig:diagEl' multiply defined.
-
-
 LaTeX Warning: Label `firstframe<1>' multiply defined.
 
 
@@ -1564,375 +1555,439 @@ Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 2
  [13
 
  <./Figuras/DiagramaHW.pdf>]
-File: Figuras/DiagramaHW.pdf Graphic file (type pdf)
-<use Figuras/DiagramaHW.pdf>
-Package pdftex.def Info: Figuras/DiagramaHW.pdf  used on input line 36. on inpu
-t line 36.
-Package pdftex.def Info: Requested size: 199.73653pt x 110.23651pt on input lin
-e 36.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:diagEl}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.36 \end{frame}
-                
+<Figuras/qre.pdf, id=555, pagebox=cropbox, 337.08267pt x 83.71152pt>
+File: Figuras/qre.pdf Graphic file (type pdf)
+<use Figuras/qre.pdf>
+Package pdftex.def Info: Figuras/qre.pdf  used on input line 55. on input line 
+55.
+Package pdftex.def Info: Requested size: 153.64493pt x 38.1565pt on input line 
+55.
+<Figuras/ams.pdf, id=556, pagebox=cropbox, 163.61125pt x 169.63374pt>
+File: Figuras/ams.pdf Graphic file (type pdf)
+<use Figuras/ams.pdf>
+Package pdftex.def Info: Figuras/ams.pdf  used on input line 55. on input line 
+55.
+Package pdftex.def Info: Requested size: 76.82246pt x 79.6502pt on input line 5
+5.
 File: Figuras/utf.pdf Graphic file (type pdf)
 <use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 36. on input line 
-36.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 3
-6.
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 55. on input line 
+55.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 5
+5.
  [14
 
-]
+ <./Figuras/qre.pdf> <./Figuras/ams.pdf>]
+File: Figuras/qre.pdf Graphic file (type pdf)
+<use Figuras/qre.pdf>
+Package pdftex.def Info: Figuras/qre.pdf  used on input line 55. on input line 
+55.
+Package pdftex.def Info: Requested size: 153.64493pt x 38.1565pt on input line 
+55.
+File: Figuras/ams.pdf Graphic file (type pdf)
+<use Figuras/ams.pdf>
+Package pdftex.def Info: Figuras/ams.pdf  used on input line 55. on input line 
+55.
+Package pdftex.def Info: Requested size: 76.82246pt x 79.6502pt on input line 5
+5.
 File: Figuras/utf.pdf Graphic file (type pdf)
 <use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 51. on input line 
-51.
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 55. on input line 
+55.
 Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 5
-1.
+5.
  [15
 
 ]
-File: Figuras/DiagramaHW.pdf Graphic file (type pdf)
-<use Figuras/DiagramaHW.pdf>
-Package pdftex.def Info: Figuras/DiagramaHW.pdf  used on input line 63. on inpu
-t line 63.
-Package pdftex.def Info: Requested size: 199.73653pt x 110.23651pt on input lin
-e 63.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:diagEl}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.63 \end{frame}
-                
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 63. on input line 
-63.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 6
-3.
- [16
-
-]
-File: Figuras/DiagramaHW.pdf Graphic file (type pdf)
-<use Figuras/DiagramaHW.pdf>
-Package pdftex.def Info: Figuras/DiagramaHW.pdf  used on input line 75. on inpu
-t line 75.
-Package pdftex.def Info: Requested size: 199.73653pt x 110.23651pt on input lin
-e 75.
-pdfTeX warning (ext4): destination with the same identifier (name{fig:diagEl}) 
-has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.75 \end{frame}
-                
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 75. on input line 
-75.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 7
-5.
- [17
-
-]
-<Figuras/SED.pdf, id=659, pagebox=cropbox, 887.16135pt x 481.44516pt>
+<Figuras/SED.pdf, id=625, pagebox=cropbox, 887.16135pt x 481.44516pt>
 File: Figuras/SED.pdf Graphic file (type pdf)
 <use Figuras/SED.pdf>
-Package pdftex.def Info: Figuras/SED.pdf  used on input line 110. on input line
- 110.
+Package pdftex.def Info: Figuras/SED.pdf  used on input line 104. on input line
+ 104.
 Package pdftex.def Info: Requested size: 215.10196pt x 116.73193pt on input lin
-e 110.
+e 104.
 File: Figuras/utf.pdf Graphic file (type pdf)
 <use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 110. on input line
- 110.
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 104. on input line
+ 104.
 Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
-10.
- [18
+04.
+ [16
 
  <./Figuras/SED.pdf>]
-<Figuras/VetorMap.pdf, id=710, pagebox=cropbox, 307.23799pt x 436.78183pt>
+<Figuras/VetorMap.pdf, id=676, pagebox=cropbox, 307.23799pt x 436.78183pt>
 File: Figuras/VetorMap.pdf Graphic file (type pdf)
 <use Figuras/VetorMap.pdf>
-Package pdftex.def Info: Figuras/VetorMap.pdf  used on input line 138. on input
- line 138.
+Package pdftex.def Info: Figuras/VetorMap.pdf  used on input line 132. on input
+ line 132.
 Package pdftex.def Info: Requested size: 129.06248pt x 183.48044pt on input lin
-e 138.
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 138. on input line
- 138.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
-38.
- [19
-
- <./Figuras/VetorMap.pdf>]
-<Figuras/FT.pdf, id=739, pagebox=cropbox, 545.84732pt x 615.10124pt>
-File: Figuras/FT.pdf Graphic file (type pdf)
-<use Figuras/FT.pdf>
-Package pdftex.def Info: Figuras/FT.pdf  used on input line 164. on input line 
-164.
-Package pdftex.def Info: Requested size: 129.06248pt x 145.43106pt on input lin
-e 164.
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 164. on input line
- 164.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
-64.
-
-[20
-
- <./Figuras/FT.pdf>]
-<Figuras/Posicao3v2.pdf, id=782, pagebox=cropbox, 421.575pt x 316.18124pt>
-File: Figuras/Posicao3v2.pdf Graphic file (type pdf)
-<use Figuras/Posicao3v2.pdf>
-Package pdftex.def Info: Figuras/Posicao3v2.pdf  used on input line 191. on inp
-ut line 191.
-Package pdftex.def Info: Requested size: 153.64493pt x 115.23392pt on input lin
-e 191.
-<Figuras/Derivadav2.pdf, id=783, pagebox=cropbox, 421.575pt x 316.18124pt>
-File: Figuras/Derivadav2.pdf Graphic file (type pdf)
-<use Figuras/Derivadav2.pdf>
-Package pdftex.def Info: Figuras/Derivadav2.pdf  used on input line 191. on inp
-ut line 191.
-Package pdftex.def Info: Requested size: 153.64493pt x 115.23392pt on input lin
-e 191.
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 191. on input line
- 191.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
-91.
- [21
-
- <./Figuras/Posicao3v2.pdf> <./Figuras/Derivadav2.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Figuras/Derivadav2.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
->]
-Overfull \hbox (36.33203pt too wide) in paragraph at lines 219--219
-\OT1/cmss/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmss/m/n/10.95 0054915([])$  
- []
-
-<Figuras/Comparativo.pdf, id=812, pagebox=cropbox, 578.16pt x 433.62pt>
-File: Figuras/Comparativo.pdf Graphic file (type pdf)
-<use Figuras/Comparativo.pdf>
-Package pdftex.def Info: Figuras/Comparativo.pdf  used on input line 219. on in
-put line 219.
-Package pdftex.def Info: Requested size: 169.01036pt x 126.75229pt on input lin
-e 219.
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 219. on input line
- 219.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 2
-19.
-[22
-
- <./Figuras/Comparativo.pdf>]
-<Figuras/planta2v2.pdf, id=864, pagebox=cropbox, 421.575pt x 316.18124pt>
-File: Figuras/planta2v2.pdf Graphic file (type pdf)
-<use Figuras/planta2v2.pdf>
-Package pdftex.def Info: Figuras/planta2v2.pdf  used on input line 243. on inpu
-t line 243.
-Package pdftex.def Info: Requested size: 153.64493pt x 115.23392pt on input lin
-e 243.
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 243. on input line
- 243.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 2
-43.
- [23
-
- <./Figuras/planta2v2.pdf>]
-Overfull \hbox (2.85443pt too wide) detected at line 266
-[][]\OT1/mathkerncmss/m/sl/10.95 posicao \OT1/cmss/m/n/10.95 = []
- []
-
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 266. on input line
- 266.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 2
-66.
-[24
-
-]
-\openout4 = `ApresentacaoTCC2.vrb'.
-
- (./ApresentacaoTCC2.vrb)
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 290. on input line
- 290.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 2
-90.
- [25
-
-]) (./Resultados.tex
-<Figuras/Barraluz.jpg, id=948, 4175.6pt x 2348.775pt>
-File: Figuras/Barraluz.jpg Graphic file (type jpg)
-<use Figuras/Barraluz.jpg>
-Package pdftex.def Info: Figuras/Barraluz.jpg  used on input line 31. on input 
-line 31.
-Package pdftex.def Info: Requested size: 119.84314pt x 67.37802pt on input line
- 31.
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 31. on input line 
-31.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 3
-1.
- [26
-
- <./Figuras/Barraluz.jpg>]
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 35. on input line 
-35.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 3
-5.
- [27
-
-]
-<Figuras/winter.jpg, id=1001, 4175.6pt x 2348.775pt>
-File: Figuras/winter.jpg Graphic file (type jpg)
-<use Figuras/winter.jpg>
-Package pdftex.def Info: Figuras/winter.jpg  used on input line 65. on input li
-ne 65.
-Package pdftex.def Info: Requested size: 184.3758pt x 103.6833pt on input line 
-65.
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 65. on input line 
-65.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 6
-5.
- [28
-
- <./Figuras/winter.jpg>]
-<Figuras/mecanismo.jpg, id=1027, 4175.6pt x 2348.775pt>
-File: Figuras/mecanismo.jpg Graphic file (type jpg)
-<use Figuras/mecanismo.jpg>
-Package pdftex.def Info: Figuras/mecanismo.jpg  used on input line 98. on input
- line 98.
-Package pdftex.def Info: Requested size: 184.3758pt x 103.6833pt on input line 
-98.
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 98. on input line 
-98.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 9
-8.
- [29
-
- <./Figuras/mecanismo.jpg>]
-
-pdfTeX warning: pdflatex.exe (file ./figuras/TesteNew1mm.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<figuras/TesteNew1mm.pdf, id=1055, pagebox=cropbox, 321.2pt x 240.9pt>
-File: figuras/TesteNew1mm.pdf Graphic file (type pdf)
-<use figuras/TesteNew1mm.pdf>
-Package pdftex.def Info: figuras/TesteNew1mm.pdf  used on input line 132. on in
-put line 132.
-Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 13
-2.
-
-
-pdfTeX warning: pdflatex.exe (file ./figuras/TesteOld1mm.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<figuras/TesteOld1mm.pdf, id=1056, pagebox=cropbox, 321.2pt x 240.9pt>
-File: figuras/TesteOld1mm.pdf Graphic file (type pdf)
-<use figuras/TesteOld1mm.pdf>
-Package pdftex.def Info: figuras/TesteOld1mm.pdf  used on input line 132. on in
-put line 132.
-Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 13
-2.
-
-
-pdfTeX warning: pdflatex.exe (file ./figuras/TestePaulo1mm.pdf): PDF inclusion:
- found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/TestePaulo1mm.pdf, id=1057, pagebox=cropbox, 321.2pt x 240.9pt>
-File: figuras/TestePaulo1mm.pdf Graphic file (type pdf)
-<use figuras/TestePaulo1mm.pdf>
-Package pdftex.def Info: figuras/TestePaulo1mm.pdf  used on input line 132. on 
-input line 132.
-Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 13
-2.
-
-
-pdfTeX warning: pdflatex.exe (file ./figuras/TestePololu1mm.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/TestePololu1mm.pdf, id=1058, pagebox=cropbox, 321.2pt x 240.9pt>
-File: figuras/TestePololu1mm.pdf Graphic file (type pdf)
-<use figuras/TestePololu1mm.pdf>
-Package pdftex.def Info: figuras/TestePololu1mm.pdf  used on input line 132. on
- input line 132.
-Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 13
-2.
+e 132.
 File: Figuras/utf.pdf Graphic file (type pdf)
 <use Figuras/utf.pdf>
 Package pdftex.def Info: Figuras/utf.pdf  used on input line 132. on input line
  132.
 Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
 32.
-[30
+ [17
+
+ <./Figuras/VetorMap.pdf>]
+<Figuras/FT.pdf, id=703, pagebox=cropbox, 545.84732pt x 615.10124pt>
+File: Figuras/FT.pdf Graphic file (type pdf)
+<use Figuras/FT.pdf>
+Package pdftex.def Info: Figuras/FT.pdf  used on input line 158. on input line 
+158.
+Package pdftex.def Info: Requested size: 129.06248pt x 145.43106pt on input lin
+e 158.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 158. on input line
+ 158.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
+58.
+ [18
+
+ <./Figuras/FT.pdf>]
+<Figuras/Posicao3v2.pdf, id=747, pagebox=cropbox, 421.575pt x 316.18124pt>
+File: Figuras/Posicao3v2.pdf Graphic file (type pdf)
+<use Figuras/Posicao3v2.pdf>
+Package pdftex.def Info: Figuras/Posicao3v2.pdf  used on input line 185. on inp
+ut line 185.
+Package pdftex.def Info: Requested size: 153.64493pt x 115.23392pt on input lin
+e 185.
+<Figuras/Derivadav2.pdf, id=748, pagebox=cropbox, 421.575pt x 316.18124pt>
+File: Figuras/Derivadav2.pdf Graphic file (type pdf)
+<use Figuras/Derivadav2.pdf>
+Package pdftex.def Info: Figuras/Derivadav2.pdf  used on input line 185. on inp
+ut line 185.
+Package pdftex.def Info: Requested size: 153.64493pt x 115.23392pt on input lin
+e 185.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 185. on input line
+ 185.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
+85.
+ [19
+
+ <./Figuras/Posicao3v2.pdf> <./Figuras/Derivadav2.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Figuras/Derivadav2.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>]
+Overfull \hbox (36.33203pt too wide) in paragraph at lines 213--213
+\OT1/cmss/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmss/m/n/10.95 0054915([])$  
+ []
+
+<Figuras/Comparativo.pdf, id=778, pagebox=cropbox, 578.16pt x 433.62pt>
+File: Figuras/Comparativo.pdf Graphic file (type pdf)
+<use Figuras/Comparativo.pdf>
+Package pdftex.def Info: Figuras/Comparativo.pdf  used on input line 213. on in
+put line 213.
+Package pdftex.def Info: Requested size: 169.01036pt x 126.75229pt on input lin
+e 213.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 213. on input line
+ 213.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 2
+13.
+[20
+
+ <./Figuras/Comparativo.pdf>]
+<Figuras/planta2v2.pdf, id=829, pagebox=cropbox, 421.575pt x 316.18124pt>
+File: Figuras/planta2v2.pdf Graphic file (type pdf)
+<use Figuras/planta2v2.pdf>
+Package pdftex.def Info: Figuras/planta2v2.pdf  used on input line 237. on inpu
+t line 237.
+Package pdftex.def Info: Requested size: 153.64493pt x 115.23392pt on input lin
+e 237.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 237. on input line
+ 237.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 2
+37.
+ [21
+
+ <./Figuras/planta2v2.pdf>]
+Overfull \hbox (2.85443pt too wide) detected at line 260
+[][]\OT1/mathkerncmss/m/sl/10.95 posicao \OT1/cmss/m/n/10.95 = []
+ []
+
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 260. on input line
+ 260.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 2
+60.
+[22
+
+]
+\openout4 = `ApresentacaoTCC2.vrb'.
+
+ (./ApresentacaoTCC2.vrb)
+Overfull \vbox (28.97942pt too high) detected at line 295
+ []
+
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 295. on input line
+ 295.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 2
+95.
+[23
+
+]
+\openout4 = `ApresentacaoTCC2.vrb'.
+
+ (./ApresentacaoTCC2.vrb)
+Overfull \vbox (42.57942pt too high) detected at line 320
+ []
+
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 320. on input line
+ 320.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 3
+20.
+[24
+
+]) (./Resultados.tex
+<Figuras/Barraluz.jpg, id=938, 4175.6pt x 2348.775pt>
+File: Figuras/Barraluz.jpg Graphic file (type jpg)
+<use Figuras/Barraluz.jpg>
+Package pdftex.def Info: Figuras/Barraluz.jpg  used on input line 32. on input 
+line 32.
+Package pdftex.def Info: Requested size: 119.84314pt x 67.37802pt on input line
+ 32.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 32. on input line 
+32.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 3
+2.
+ [25
+
+ <./Figuras/Barraluz.jpg>]
+<figuras/crazy1.jpg, id=968, 4175.6pt x 2348.775pt>
+File: figuras/crazy1.jpg Graphic file (type jpg)
+<use figuras/crazy1.jpg>
+Package pdftex.def Info: figuras/crazy1.jpg  used on input line 62. on input li
+ne 62.
+Package pdftex.def Info: Requested size: 92.13107pt x 51.82373pt on input line 
+62.
+<figuras/crazy2.jpg, id=969, 4175.6pt x 2348.775pt>
+File: figuras/crazy2.jpg Graphic file (type jpg)
+<use figuras/crazy2.jpg>
+Package pdftex.def Info: figuras/crazy2.jpg  used on input line 62. on input li
+ne 62.
+Package pdftex.def Info: Requested size: 92.13107pt x 51.82373pt on input line 
+62.
+<figuras/crazy3.jpg, id=970, 4175.6pt x 2348.775pt>
+File: figuras/crazy3.jpg Graphic file (type jpg)
+<use figuras/crazy3.jpg>
+Package pdftex.def Info: figuras/crazy3.jpg  used on input line 62. on input li
+ne 62.
+Package pdftex.def Info: Requested size: 92.13107pt x 51.82373pt on input line 
+62.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 62. on input line 
+62.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 6
+2.
+ [26
+
+ <./figuras/crazy1.jpg> <./figuras/crazy2.jpg> <./figuras/crazy3.jpg>]
+File: figuras/crazy1.jpg Graphic file (type jpg)
+<use figuras/crazy1.jpg>
+Package pdftex.def Info: figuras/crazy1.jpg  used on input line 62. on input li
+ne 62.
+Package pdftex.def Info: Requested size: 92.13107pt x 51.82373pt on input line 
+62.
+File: figuras/crazy2.jpg Graphic file (type jpg)
+<use figuras/crazy2.jpg>
+Package pdftex.def Info: figuras/crazy2.jpg  used on input line 62. on input li
+ne 62.
+Package pdftex.def Info: Requested size: 92.13107pt x 51.82373pt on input line 
+62.
+File: figuras/crazy3.jpg Graphic file (type jpg)
+<use figuras/crazy3.jpg>
+Package pdftex.def Info: figuras/crazy3.jpg  used on input line 62. on input li
+ne 62.
+Package pdftex.def Info: Requested size: 92.13107pt x 51.82373pt on input line 
+62.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 62. on input line 
+62.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 6
+2.
+ [27
+
+]
+File: figuras/crazy1.jpg Graphic file (type jpg)
+<use figuras/crazy1.jpg>
+Package pdftex.def Info: figuras/crazy1.jpg  used on input line 62. on input li
+ne 62.
+Package pdftex.def Info: Requested size: 92.13107pt x 51.82373pt on input line 
+62.
+File: figuras/crazy2.jpg Graphic file (type jpg)
+<use figuras/crazy2.jpg>
+Package pdftex.def Info: figuras/crazy2.jpg  used on input line 62. on input li
+ne 62.
+Package pdftex.def Info: Requested size: 92.13107pt x 51.82373pt on input line 
+62.
+File: figuras/crazy3.jpg Graphic file (type jpg)
+<use figuras/crazy3.jpg>
+Package pdftex.def Info: figuras/crazy3.jpg  used on input line 62. on input li
+ne 62.
+Package pdftex.def Info: Requested size: 92.13107pt x 51.82373pt on input line 
+62.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 62. on input line 
+62.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 6
+2.
+ [28
+
+]
+<Figuras/winter.jpg, id=1047, 4175.6pt x 2348.775pt>
+File: Figuras/winter.jpg Graphic file (type jpg)
+<use Figuras/winter.jpg>
+Package pdftex.def Info: Figuras/winter.jpg  used on input line 92. on input li
+ne 92.
+Package pdftex.def Info: Requested size: 184.3758pt x 103.6833pt on input line 
+92.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 92. on input line 
+92.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 9
+2.
+ [29
+
+ <./Figuras/winter.jpg>]
+<Figuras/mecanismo.jpg, id=1075, 4175.6pt x 2348.775pt>
+File: Figuras/mecanismo.jpg Graphic file (type jpg)
+<use Figuras/mecanismo.jpg>
+Package pdftex.def Info: Figuras/mecanismo.jpg  used on input line 125. on inpu
+t line 125.
+Package pdftex.def Info: Requested size: 184.3758pt x 103.6833pt on input line 
+125.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 125. on input line
+ 125.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
+25.
+ [30
+
+ <./Figuras/mecanismo.jpg>]
+
+pdfTeX warning: pdflatex.exe (file ./figuras/TesteNew1mm.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<figuras/TesteNew1mm.pdf, id=1102, pagebox=cropbox, 321.2pt x 240.9pt>
+File: figuras/TesteNew1mm.pdf Graphic file (type pdf)
+<use figuras/TesteNew1mm.pdf>
+Package pdftex.def Info: figuras/TesteNew1mm.pdf  used on input line 159. on in
+put line 159.
+Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 15
+9.
+
+
+pdfTeX warning: pdflatex.exe (file ./figuras/TesteOld1mm.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<figuras/TesteOld1mm.pdf, id=1103, pagebox=cropbox, 321.2pt x 240.9pt>
+File: figuras/TesteOld1mm.pdf Graphic file (type pdf)
+<use figuras/TesteOld1mm.pdf>
+Package pdftex.def Info: figuras/TesteOld1mm.pdf  used on input line 159. on in
+put line 159.
+Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 15
+9.
+
+
+pdfTeX warning: pdflatex.exe (file ./figuras/TestePaulo1mm.pdf): PDF inclusion:
+ found PDF version <1.7>, but at most version <1.5> allowed
+<figuras/TestePaulo1mm.pdf, id=1104, pagebox=cropbox, 321.2pt x 240.9pt>
+File: figuras/TestePaulo1mm.pdf Graphic file (type pdf)
+<use figuras/TestePaulo1mm.pdf>
+Package pdftex.def Info: figuras/TestePaulo1mm.pdf  used on input line 159. on 
+input line 159.
+Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 15
+9.
+
+
+pdfTeX warning: pdflatex.exe (file ./figuras/TestePololu1mm.pdf): PDF inclusion
+: found PDF version <1.7>, but at most version <1.5> allowed
+<figuras/TestePololu1mm.pdf, id=1105, pagebox=cropbox, 321.2pt x 240.9pt>
+File: figuras/TestePololu1mm.pdf Graphic file (type pdf)
+<use figuras/TestePololu1mm.pdf>
+Package pdftex.def Info: figuras/TestePololu1mm.pdf  used on input line 159. on
+ input line 159.
+Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 15
+9.
+File: Figuras/utf.pdf Graphic file (type pdf)
+<use Figuras/utf.pdf>
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 159. on input line
+ 159.
+Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
+59.
+[31
 
  <./figuras/TesteNew1mm.pdf> <./figuras/TesteOld1mm.pdf> <./figuras/TestePaulo1
 mm.pdf> <./figuras/TestePololu1mm.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./figuras/TesteNew2mm.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<figuras/TesteNew2mm.pdf, id=1112, pagebox=cropbox, 321.2pt x 240.9pt>
+<figuras/TesteNew2mm.pdf, id=1160, pagebox=cropbox, 321.2pt x 240.9pt>
 File: figuras/TesteNew2mm.pdf Graphic file (type pdf)
 <use figuras/TesteNew2mm.pdf>
-Package pdftex.def Info: figuras/TesteNew2mm.pdf  used on input line 168. on in
-put line 168.
-Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 16
-8.
+Package pdftex.def Info: figuras/TesteNew2mm.pdf  used on input line 195. on in
+put line 195.
+Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 19
+5.
 
 
 pdfTeX warning: pdflatex.exe (file ./figuras/TesteOld2mm.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<figuras/TesteOld2mm.pdf, id=1113, pagebox=cropbox, 321.2pt x 240.9pt>
+<figuras/TesteOld2mm.pdf, id=1161, pagebox=cropbox, 321.2pt x 240.9pt>
 File: figuras/TesteOld2mm.pdf Graphic file (type pdf)
 <use figuras/TesteOld2mm.pdf>
-Package pdftex.def Info: figuras/TesteOld2mm.pdf  used on input line 168. on in
-put line 168.
-Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 16
-8.
+Package pdftex.def Info: figuras/TesteOld2mm.pdf  used on input line 195. on in
+put line 195.
+Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 19
+5.
 
 
 pdfTeX warning: pdflatex.exe (file ./figuras/TestePaulo2mm.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/TestePaulo2mm.pdf, id=1114, pagebox=cropbox, 321.2pt x 240.9pt>
+<figuras/TestePaulo2mm.pdf, id=1162, pagebox=cropbox, 321.2pt x 240.9pt>
 File: figuras/TestePaulo2mm.pdf Graphic file (type pdf)
 <use figuras/TestePaulo2mm.pdf>
-Package pdftex.def Info: figuras/TestePaulo2mm.pdf  used on input line 168. on 
-input line 168.
-Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 16
-8.
+Package pdftex.def Info: figuras/TestePaulo2mm.pdf  used on input line 195. on 
+input line 195.
+Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 19
+5.
 
 
 pdfTeX warning: pdflatex.exe (file ./figuras/TestePololu2mm.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<figuras/TestePololu2mm.pdf, id=1115, pagebox=cropbox, 321.2pt x 240.9pt>
+<figuras/TestePololu2mm.pdf, id=1163, pagebox=cropbox, 321.2pt x 240.9pt>
 File: figuras/TestePololu2mm.pdf Graphic file (type pdf)
 <use figuras/TestePololu2mm.pdf>
-Package pdftex.def Info: figuras/TestePololu2mm.pdf  used on input line 168. on
- input line 168.
-Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 16
-8.
+Package pdftex.def Info: figuras/TestePololu2mm.pdf  used on input line 195. on
+ input line 195.
+Package pdftex.def Info: Requested size: 92.185pt x 69.13873pt on input line 19
+5.
 File: Figuras/utf.pdf Graphic file (type pdf)
 <use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 168. on input line
- 168.
+Package pdftex.def Info: Figuras/utf.pdf  used on input line 195. on input line
+ 195.
 Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
-68.
-[31
+95.
+[32
 
  <./figuras/TesteNew2mm.pdf> <./figuras/TesteOld2mm.pdf> <./figuras/TestePaulo2
 mm.pdf> <./figuras/TestePololu2mm.pdf>]) (./Conclusao.tex
@@ -1942,16 +1997,6 @@ Package pdftex.def Info: Figuras/utf.pdf  used on input line 19. on input line
 19.
 Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
 9.
- [32
-
-])
-(./Referencias.tex
-File: Figuras/utf.pdf Graphic file (type pdf)
-<use Figuras/utf.pdf>
-Package pdftex.def Info: Figuras/utf.pdf  used on input line 16. on input line 
-16.
-Package pdftex.def Info: Requested size: 56.9055pt x 20.86359pt on input line 1
-6.
  [33
 
 ])pdfTeX warning (ext4): destination with the same identifier (name{firstframe<
@@ -1988,9 +2033,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
  (./ApresentacaoTCC2.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
-Package rerunfilecheck Info: File `ApresentacaoTCC2.out' has not changed.
-(rerunfilecheck)             Checksum: FD35415286D3B8737AE0A5EDDF4CF5FB;1094.
 
+
+Package rerunfilecheck Warning: File `ApresentacaoTCC2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ApresentacaoTCC2.out':
+(rerunfilecheck)             Before: 32F70ABF52830406BCCA4445C7EF8112;1094
+(rerunfilecheck)             After:  994C824248590358183951B14ACF31A3;1094.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -2003,31 +2054,34 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 123 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19597 strings out of 492990
- 366496 string characters out of 6136334
- 439889 words of memory out of 5000000
- 22486 multiletter control sequences out of 15000+600000
- 16877 words of font info for 61 fonts, out of 8000000 for 9000
+ 19566 strings out of 492990
+ 365952 string characters out of 6136334
+ 439888 words of memory out of 5000000
+ 22458 multiletter control sequences out of 15000+600000
+ 13364 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,16n,72p,785b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
-10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c
-:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmss8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmssbx10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmssi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi1
-2.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><c:
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/texmf
--dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2017/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on ApresentacaoTCC2.pdf (34 pages, 7522108 bytes).
+ 56i,16n,60p,785b,985s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Outline0.7.3.28} has been reference
+d but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.7.2.27} has been referenced but does not e
+xist, replaced by a fixed one
+
+<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2017/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmss10.pfb><c:/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss8.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmssbx10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
+i10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb><
+c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on ApresentacaoTCC2.pdf (34 pages, 9926253 bytes).
 PDF statistics:
- 1332 PDF objects out of 1440 (max. 8388607)
- 1173 compressed objects within 12 object streams
- 142 named destinations out of 1000 (max. 500000)
- 366 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1342 PDF objects out of 1440 (max. 8388607)
+ 1177 compressed objects within 12 object streams
+ 144 named destinations out of 1000 (max. 500000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
 
