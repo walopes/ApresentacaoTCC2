@@ -45,8 +45,36 @@
 \begin{frame}
 \frametitle{Controle de tempo contínuo}
 \begin{columns}
-	\column{0.5\linewidth}
-	\column{0.4\linewidth}
+	\column{0.45\linewidth}
+	\begin{itemize}
+	\item Malha aberta
+	\item Malha fechada
+	\item Controlador
+		\begin{itemize}
+		\item Proporcional
+		\item Integral
+		\item Derivativa
+		\end{itemize}
+	\end{itemize}
+	
+	\column{0.6\linewidth}
+	\begin{figure}[h]
+     \centering
+     \captionsetup{width=\textwidth,font=footnotesize,textfont=bf}
+     \begin{subfigure}[b]{\textwidth}
+ 	\centering
+         \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{Figuras/MalhaAberta.pdf}
+         \caption{\centering \label{fig:jkl}}
+     \end{subfigure}
+     
+     \begin{subfigure}[b]{\textwidth}
+ 	\centering
+         \includegraphics[width=\textwidth,height=5\textheight,keepaspectratio]{Figuras/Controlador.pdf}
+         \caption{\centering \label{fig:ppolk}}
+     \end{subfigure}
+	\caption{Diagramas de controle: (a) Malha aberta;(b) Malha fechada com controlador}
+ \end{figure}
+	
 \end{columns}
 \end{frame}
 
@@ -55,10 +83,52 @@
 \begin{frame}
 \frametitle{Controle a eventos discretos}
 \begin{columns}
-	\column{0.5\linewidth}
-	\column{0.4\linewidth}
+	\column{0.3\linewidth}
+	\begin{itemize}
+	\item Eventos discretos
+	\item Autômato
+		\begin{itemize}
+		\item Moore
+		\item Mealy
+		\end{itemize}
+	\end{itemize}
+	
+	\column{0.7\linewidth}
+	\begin{figure}[h]
+     \centering
+     \captionsetup{width=0.85\textwidth,font=footnotesize,textfont=bf}
+     \begin{subfigure}[b]{\textwidth}
+ 	\centering
+         \includegraphics[width=0.85\textwidth,height=\textheight,keepaspectratio]{Figuras/moore.pdf}
+         \caption{\centering \label{fig:moore}}
+     \end{subfigure}
+     
+     \begin{subfigure}[b]{\textwidth}
+ 	\centering
+         \includegraphics[width=0.85\textwidth,height=5\textheight,keepaspectratio]{Figuras/mealy.pdf}
+         \caption{\centering \label{fig:mealy}}
+     \end{subfigure}
+	\caption{Autômatos: (a) Moore; (b) Mealy (CASSANDRAS;LAFORTUNE;2008,p.43)}
+ \end{figure}
+	
 \end{columns}
 \end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \begin{frame}
 \frametitle{Bullet Points}
