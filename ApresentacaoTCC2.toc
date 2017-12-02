@@ -1,15 +1,16 @@
 \select@language {brazil}
 \beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Justificativa}{9}{0}{1}
-\beamer@sectionintoc {2}{Materiais}{10}{0}{2}
-\beamer@sectionintoc {3}{Desenho e implementa\IeC {\c c}\IeC {\~a}o}{13}{0}{3}
-\beamer@subsectionintoc {3}{1}{Projeto do \textit {hardware}}{13}{0}{3}
-\beamer@subsectionintoc {3}{2}{Projeto do controlador de SED}{18}{0}{3}
-\beamer@subsectionintoc {3}{3}{Projeto do sistema de mapeamento}{19}{0}{3}
-\beamer@subsectionintoc {3}{4}{Fun\IeC {\c c}\IeC {\~a}o de transfer\IeC {\^e}ncia do ve\IeC {\'\i }culo}{20}{0}{3}
-\beamer@subsectionintoc {3}{5}{Projeto do controlador de tempo cont\IeC {\'\i }nuo}{24}{0}{3}
-\beamer@sectionintoc {4}{Resultados}{26}{0}{4}
-\beamer@subsectionintoc {4}{1}{Projeto e implementa\IeC {\c c}\IeC {\~a}o da estrutura mec\IeC {\^a}nica}{26}{0}{4}
-\beamer@subsectionintoc {4}{2}{Participa\IeC {\c c}\IeC {\~a}o em competi\IeC {\c c}\IeC {\~o}es}{28}{0}{4}
-\beamer@subsectionintoc {4}{3}{Teste dos sensores de reflet\IeC {\^a}ncia}{29}{0}{4}
-\beamer@sectionintoc {5}{Conclus\IeC {\~a}o}{33}{0}{5}
+\beamer@sectionintoc {2}{Objetivos}{7}{0}{2}
+\beamer@sectionintoc {3}{Justificativa}{9}{0}{3}
+\beamer@sectionintoc {4}{Materiais}{10}{0}{4}
+\beamer@sectionintoc {5}{Desenho e implementa\IeC {\c c}\IeC {\~a}o}{13}{0}{5}
+\beamer@subsectionintoc {5}{1}{Projeto do \textit {hardware}}{13}{0}{5}
+\beamer@subsectionintoc {5}{2}{Projeto do controlador de SED}{18}{0}{5}
+\beamer@subsectionintoc {5}{3}{Projeto do sistema de mapeamento}{19}{0}{5}
+\beamer@subsectionintoc {5}{4}{Fun\IeC {\c c}\IeC {\~a}o de transfer\IeC {\^e}ncia do ve\IeC {\'\i }culo}{20}{0}{5}
+\beamer@subsectionintoc {5}{5}{Projeto do controlador de tempo cont\IeC {\'\i }nuo}{24}{0}{5}
+\beamer@sectionintoc {6}{Resultados}{26}{0}{6}
+\beamer@subsectionintoc {6}{1}{Projeto e implementa\IeC {\c c}\IeC {\~a}o da estrutura mec\IeC {\^a}nica}{26}{0}{6}
+\beamer@subsectionintoc {6}{2}{Participa\IeC {\c c}\IeC {\~a}o em competi\IeC {\c c}\IeC {\~o}es}{28}{0}{6}
+\beamer@subsectionintoc {6}{3}{Teste dos sensores de reflet\IeC {\^a}ncia}{29}{0}{6}
+\beamer@sectionintoc {7}{Conclus\IeC {\~a}o}{33}{0}{7}
